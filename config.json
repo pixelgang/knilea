@@ -21,7 +21,6 @@
 		"density": "xhdpi"
 	}],
 	"plugins": [
-		{ "id": "cordova-plugin-ad-admob", "version": null },
 		{ "id": "cordova-plugin-whitelist", "version": null }
 	],
 	"android": {
