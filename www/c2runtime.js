@@ -22445,6 +22445,7 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Flash.prototype.acts.Flash,
 	cr.plugins_.Sprite.prototype.cnds.CompareInstanceVar,
 	cr.system_object.prototype.acts.RestartLayout,
+	cr.plugins_.admob.prototype.acts.ShowInterstitial,
 	cr.plugins_.Audio.prototype.acts.Play,
 	cr.plugins_.LocalStorage.prototype.acts.SetItem,
 	cr.plugins_.Sprite.prototype.acts.AddInstanceVar,

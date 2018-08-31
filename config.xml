@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.digitalharm.knight" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.digitalharm.knight" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:android = "http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
 	<name>Knight Leap</name>
 	<description>Kid  Game</description>
 	<author href="http://digitalharmony.agency" email="support@digitalharmony.agency">Digital Harmony</author>
