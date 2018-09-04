@@ -14,8 +14,8 @@
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
 
-	<preference name="deployment-target" value="9.0" />
-	<preference name="android-minSdkVersion" value="23" />
+	<preference name="deployment-target" value="8.0" />
+	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
 	<plugin name="cordova-plugin-ad-admob" />
