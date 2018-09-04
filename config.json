@@ -1,6 +1,6 @@
 ﻿{
 	"id": "com.digitalharm.knight",
-	"version": "2.0",
+	"version": "2.1",
 	"name": "Knight Leap",
 	"description": "Kid  Game",
 	"author": "Digital Harmony",
@@ -25,7 +25,7 @@
 		{ "id": "cordova-plugin-whitelist", "version": null }
 	],
 	"android": {
-		"min": 23,
+		"min": 22,
 		"target": 26,
 		"plugins": []
 	},
