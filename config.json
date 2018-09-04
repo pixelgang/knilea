@@ -1,6 +1,6 @@
 ﻿{
 	"id": "com.digitalharm.knight",
-	"version": "1.8",
+	"version": "2.0",
 	"name": "Knight Leap",
 	"description": "Kid  Game",
 	"author": "Digital Harmony",
@@ -8,7 +8,7 @@
 	"website": "http://digitalharmony.agency",
 	"fullscreen": "false",
 	"useragent": null,
-	"orientation": "default",
+	"orientation": "landscape",
 	"icons": [{
 		"src": "www/icon-256.png",
 		"width": 256,
