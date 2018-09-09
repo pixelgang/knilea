@@ -3735,8 +3735,8 @@ quat4.str=function(a){return"["+a[0]+", "+a[1]+", "+a[2]+", "+a[3]+"]"};
 					"powerPreference": "high-performance",
 					"failIfMajorPerformanceCaveat": true
 				};
-				this.gl = (this.canvas.getContext("webgl2", attribs) ||
-						   this.canvas.getContext("webgl", attribs) ||
+				this.gl = (this.canvas.getContext("webgl1", attribs) ||
+						 
 						   this.canvas.getContext("experimental-webgl", attribs));
 			}
 		}
@@ -24108,12 +24108,12 @@ cr.behaviors.wrap = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.admob,
 	cr.plugins_.Audio,
-	cr.plugins_.LocalStorage,
 	cr.plugins_.Function,
 	cr.plugins_.Mouse,
-	cr.plugins_.Touch,
-	cr.plugins_.Sprite,
+	cr.plugins_.LocalStorage,
 	cr.plugins_.Text,
+	cr.plugins_.Sprite,
+	cr.plugins_.Touch,
 	cr.plugins_.TiledBg,
 	cr.behaviors.solid,
 	cr.behaviors.Platform,
