@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.digitalharm.knight" version="3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>Knight Leap</name>
+<widget id="com.knight.spree" version="1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>Knight Spree</name>
 	<description>Kid  Game</description>
 	<author href="http://digitalharmony.agency" email="support@digitalharmony.agency">Digital Harmony</author>
 
@@ -10,16 +10,24 @@
 	<preference name="android-targetSdkVersion" value="26" />
 
 	<preference name="orientation" value="landscape" />
-	<preference name="fullscreen" value="false" />
+	<preference name="fullscreen" value="true" />
 	<preference name="DisallowOverscroll" value="true" />
 	<preference name="AllowInlineMediaPlayback" value="true" />
 
-	<preference name="deployment-target" value="9.0" />
-	<preference name="android-minSdkVersion" value="23" />
+	<config-file parent="UIStatusBarHidden" platform="ios" target="*-Info.plist"><true/></config-file>
+	<config-file parent="UIViewControllerBasedStatusBarAppearance" platform="ios" target="*-Info.plist"><false/></config-file>
+
+
+	<preference name="deployment-target" value="10.0" />
+	<preference name="android-minSdkVersion" value="21" />
 	<access origin="*" />
 
+	<plugin name="cordova-custom-config" />
 	<plugin name="cordova-plugin-ad-admob" />
+	<plugin name="cordova-plugin-file" />
+	<plugin name="cordova-plugin-statusbar" />
 	<plugin name="cordova-plugin-whitelist" />
+	<plugin name="cordova-plugin-wkwebview-engine" />
 
 
 	<engine name="ios" />
